@@ -24,8 +24,28 @@ Specifically, the code provided here is used to produce the results in Section 4
     ```
    abaqus job=JobName inp=InputName.inp user=SubroutineName.for
     ```
-- To run example 4.1: Penny-shaped specimen in tension: large deformation rubber, set  
-`inp = Penny-Shaped_input_4_1.inp` and `user = Penny-Shaped_UMAT_4_1.for`
+- To run the Helmholtz example with a *coarse* mesh, set
+`inp = NonLocal_10_Helmholtz.inp` and `user = Mullins_NonLocal_UMAT_Helmholtz.for`
+
+- To run the Helmholtz example with a *medium* mesh, set
+`inp = NonLocal_5_Helmholtz.inp` and `user = Mullins_NonLocal_UMAT_Helmholtz.for`
+
+- To run the Helmholtz example with a *fine* mesh, set
+`inp = NonLocal_2.5_Helmholtz.inp` and `user = Mullins_NonLocal_UMAT_Helmholtz.for`
+
+- To run the Laplacian example with a *coarse* mesh, set
+`inp = NonLocal_10_Laplacian.inp` and `user = Mullins_NonLocal_UMAT_Laplacian.for`
+
+- To run the Helmholtz example with a *medium* mesh, set
+`inp = NonLocal_5_Laplacian.inp` and `user = Mullins_NonLocal_UMAT_Laplacian.for`
+
+- To run the Helmholtz example with a *fine* mesh, set
+`inp = NonLocal_2.5_Laplacian.inp` and `user = Mullins_NonLocal_UMAT_Laplacian.for`
+
+
+❗**NOTE**❗  
+We note that the local results were obtained from the non-local (Helmholtz equation-type formulation) simulation results using the local soft volume fraction. A separate implementation of the purely local formulation is provided for completeness, although it is not used here. Any slight discrepancies are attributed to differences in time stepping and solver accuracy between the coupled displacement–temperature and displacement-only analyses. Accordingly, to run the Local examples, use 
+`inp = Local_10.inp` *(coarse)*, `inp = Local_5.inp` *(medium)*, `inp = Local_2.5.inp` *(fine)* along with `user = Mullins_Local_UMAT.for`
 
 
 >For any questions regarding the code or the implementation, please contact **keven_alkhoury@brown.edu**.
