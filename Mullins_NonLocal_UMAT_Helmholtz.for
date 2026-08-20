@@ -1,7 +1,8 @@
 ************************************************************************
-!     Alkhoury, K. A non-local constitutive model for the Mullins effect in
-!     filled elastomers. JOURNAL.
-!     LINK
+!     Alkhoury, K (2026). A non-local constitutive model for the Mullins effect in
+!     filled elastomers. International Journal of Solids and Structures, 340, 114249. 
+!     https://doi.org/10.1016/j.ijsolstr.2026.114249
+!
 !     Keven Alkhoury, April 2026, Abaqus 2024
 !     This implementation builds upon the following works:
 !
@@ -12,7 +13,7 @@
 !
 !     Wang, S., & Chester, S. A. (2018).
 !     Experimental characterization and continuum modeling of inelasticity in filled rubber-like materials.
-!     International Journal of Solids and Structures, 136-137, 125–136.
+!     International Journal of Solids and Structures, 136-137, 125ï¿½136.
 !     https://doi.org/10.1016/j.ijsolstr.2017.12.010
 ************************************************************************
 !     State Variables
@@ -292,7 +293,7 @@
       end subroutine integ
 ***********************************************************************
       !
-      ! Subroutine to compute the stress–deformation Jacobian numerically
+      ! Subroutine to compute the stressï¿½deformation Jacobian numerically
       ! using a finite difference perturbation of the deformation gradient
       ! Additional implementation details and  background can be
       ! found in:
