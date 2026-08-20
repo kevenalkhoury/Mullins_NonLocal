@@ -13,7 +13,7 @@
 !
 !     Wang, S., & Chester, S. A. (2018).
 !     Experimental characterization and continuum modeling of inelasticity in filled rubber-like materials.
-!     International Journal of Solids and Structures, 136-137, 125�136.
+!     International Journal of Solids and Structures, 136-137, 125-136.
 !     https://doi.org/10.1016/j.ijsolstr.2017.12.010
 ************************************************************************
 !     State Variables
