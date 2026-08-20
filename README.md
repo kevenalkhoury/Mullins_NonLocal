@@ -1,7 +1,7 @@
 # Code for A non-local constitutive model for the Mullins effect in filled elastomers
 This repository contains the input files, along with the user material subroutines that were used in the manuscript:
 
->**Alkhoury, K.**. A non-local constitutive model for the Mullins effect in filled elastomers
+>**Alkhoury, K.** (2026). A non-local constitutive model for the Mullins effect in filled elastomers. International Journal of Solids and Structures, 340, 114249. https://doi.org/10.1016/j.ijsolstr.2026.114249
 >
 If you use this code, or build upon any part of it, **please cite the publication above**.
 
