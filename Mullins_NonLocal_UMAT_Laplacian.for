@@ -290,7 +290,7 @@
       end subroutine integ
 ***********************************************************************
       !
-      ! Subroutine to compute the stress�deformation Jacobian numerically
+      ! Subroutine to compute the stress-deformation Jacobian numerically
       ! using a finite difference perturbation of the deformation gradient
       ! Additional implementation details and  background can be
       ! found in:
